@@ -1,0 +1,17 @@
+:root {
+    --main: #8418AE;
+    --cl: #DDB8E9;
+    --clcl: #f7e7ff;
+    --med: #d77cff;
+    --dark: #120318;
+    --res: #820d0d;
+
+    --box-w: 1400px;
+
+    --box-pd: 0 50px;
+    --btn-pd: 0 20px;
+
+    --btn-h: 44px;
+
+    --radius: 10px;
+}

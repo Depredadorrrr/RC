@@ -1,23 +1,6 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 @import url(components/header.css);
-
-:root {
-    --main: #8418AE;
-    --cl: #DDB8E9;
-    --clcl: #f7e7ff;
-    --med: #d77cff;
-    --dark: #120318;
-    --res: #820d0d;
-
-    --box-w: 1400px;
-
-    --box-pd: 0 50px;
-    --btn-pd: 0 20px;
-
-    --btn-h: 44px;
-
-    --radius: 10px;
-}
+@import url(variables.css);
 
 body {
     margin: 0;
@@ -102,6 +85,7 @@ body {
 .comic__img {
     width: 100%;
     height: 100%;
+    aspect-ratio: 3 / 4;
 }
 
 .comic__title {
