@@ -37,7 +37,7 @@ const paginatedComics = comics.slice(start, end);
 
 paginatedComics.forEach((comic, index) => {
     const comicElement = document.createElement('a');
-    comicElement.href = '#';
+    comicElement.href = 'comics/Transylvania Milf 2/Transylvania-Milf-2.html';
     comicElement.className = 'comic';
     comicElement.innerHTML = `
     <img data-src="${comic.imgSrc}" alt="" class="comic__img lazy-load" id="comic-img-${start + index}">
